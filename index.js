@@ -9,7 +9,7 @@ app.get('/', function(req, res) {
 
 app.get('/mention/', function(req, res) {
   // trollResponse();
-  var resp = {'text': request.body}
+  var resp = {'text': req.body}
   res.send(resp);
 });
 
