@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var reddit = require('controllers/snoocore');
+var reddit = require('controllers/reddit');
 
 app.get('/', function(req, res) {
   res.send('you can not troll this troll');
