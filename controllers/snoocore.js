@@ -3,7 +3,7 @@ var Snoocore = require('snoocore');
 
 // Our new instance associated with a single account.
 // It takes in various configuration options.
-var reddit = new Snoocore({
+var trollResponse = new Snoocore({
   userAgent: '/u/trollrr troll all the trolls', // unique string identifying the app
   oauth: {
     type: 'script',
@@ -22,4 +22,4 @@ reddit('/api/v1/me').get().then(function(result) {
   console.log(result);
 });
 
-module.exports = reddit;
+module.exports = trollResponse;

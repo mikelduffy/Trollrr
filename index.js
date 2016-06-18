@@ -1,15 +1,16 @@
 var express = require('express');
 var app = express();
 var Snoocore = require('snoocore');
-var reddit = require('./controllers/snoocore.js');
+var trollResponse = require('./controllers/snoocore.js');
 
 app.get('/', function(req, res) {
   res.send('you can not troll this troll');
 });
 
 app.get('/mention/', function(req, res) {
-  reddit();
-  res.send('you posted these params: ' + req.query.id);
+  // trollResponse();
+  var resp = {'text': request.body}
+  res.send(resp);
 });
 
 app.listen(8080, function () {
