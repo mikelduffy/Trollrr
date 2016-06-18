@@ -1,0 +1,22 @@
+{
+  "name": "trollrr",
+  "version": "1.0.0",
+  "description": "A reddit troll troller.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikelduffy/Trollrr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikelduffy/Trollrr/issues"
+  },
+  "homepage": "https://github.com/mikelduffy/Trollrr#readme",
+  "dependencies": {
+    "snoocore": "^3.3.1"
+  }
+}
