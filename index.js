@@ -9,16 +9,16 @@ app.get('/', function(req, res) {
 
 app.post('/mention/', function(req, res) {
   // trollResponse();
-  var resp = {'text': req.body}
-  console.log(resp);
+  // var resp = {'text': req.body}
+  console.log(req.body);
 });
 
-app.get('/mention/', function(req, res) {
-  // trollResponse();
-  var resp = {'text': req.body}
-  console.log(resp);
-  res.send(resp);
-});
+// app.get('/mention/', function(req, res) {
+//   // trollResponse();
+//   var resp = {'text': req.body}
+//   console.log(req.body);
+//   res.send(resp);
+// });
 
 app.listen(8080, function () {
   console.log("Trollrr is running on port 8080!");
