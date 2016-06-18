@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var Snoocore = require('snoocore');
 var reddit = require('controllers/reddit');
 
 app.get('/', function(req, res) {

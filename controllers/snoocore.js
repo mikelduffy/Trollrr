@@ -1,5 +1,6 @@
 var Snoocore = require('snoocore');
 
+
 // Our new instance associated with a single account.
 // It takes in various configuration options.
 var reddit = new Snoocore({
