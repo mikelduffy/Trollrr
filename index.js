@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var Snoocore = require('snoocore');
-var reddit = require('controllers/reddit');
+var reddit = require('./controllers/snoocore.js');
 
 app.get('/', function(req, res) {
   res.send('you can not troll this troll');
