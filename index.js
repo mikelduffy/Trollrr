@@ -19,11 +19,11 @@ app.use(function (req, res, next) {
 //   res.send('you can not troll this troll');
 // });
 
-// app.post('/mention/', function(req, res) {
-//   // trollResponse();
-//   // var resp = {'text': req.body}
-//   console.log(req);
-// });
+app.post('/mention/', function(req, res) {
+  // trollResponse();
+  // var resp = {'text': req.body}
+  console.log(req);
+});
 
 // app.get('/mention/', function(req, res) {
 //   // trollResponse();
