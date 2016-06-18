@@ -7,10 +7,10 @@ var reddit = new Snoocore({
   userAgent: '/u/trollrr troll all the trolls', // unique string identifying the app
   oauth: {
     type: 'script',
-    key: $REDDIT_KEY, // OAuth client key (provided at reddit app)
-    secret: $REDDIT_SECRET, // OAuth secret (provided at reddit app)
+    key: process.env.REDDIT_KEY, // OAuth client key (provided at reddit app)
+    secret: process.env.REDDIT_SECRET, // OAuth secret (provided at reddit app)
     username: 'trollrr', // Reddit username used to make the reddit app
-    password: $REDDIT_PASSWORD, // Reddit password for the username
+    password: process.env.REDDIT_PASSWORD, // Reddit password for the username
     // The OAuth scopes that we need to make the calls that we
     // want. The reddit documentation will specify which scope
     // is needed for evey call

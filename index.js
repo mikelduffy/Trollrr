@@ -10,7 +10,6 @@ app.get('/', function(req, res) {
 app.get('/mention/', function(req, res) {
   reddit();
   res.send('you posted these params: ' + req.query.id);
-
 });
 
 app.listen(8080, function () {
