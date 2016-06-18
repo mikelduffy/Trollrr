@@ -10,7 +10,7 @@ app.get('/', function(req, res) {
 app.post('/mention/', function(req, res) {
   // trollResponse();
   // var resp = {'text': req.body}
-  console.log(req.body);
+  console.log(req);
 });
 
 // app.get('/mention/', function(req, res) {
