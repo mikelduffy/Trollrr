@@ -7,6 +7,12 @@ app.get('/', function(req, res) {
   res.send('you can not troll this troll');
 });
 
+app.post('/mention/', function(req, res) {
+  // trollResponse();
+  var resp = {'text': req.body}
+  console.log(resp);
+});
+
 app.get('/mention/', function(req, res) {
   // trollResponse();
   var resp = {'text': req.body}
