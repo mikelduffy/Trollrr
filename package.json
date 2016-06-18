@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mikelduffy/Trollrr#readme",
   "dependencies": {
+    "express": "^4.14.0",
     "snoocore": "^3.3.1"
   }
 }
