@@ -5,4 +5,6 @@ app.get('/', function(req, res) {
   res.send('test response!');
 });
 
-app.listen(80);
+app.listen(80, function () {
+  console.log("Trollrr is running on port 80!");
+});
