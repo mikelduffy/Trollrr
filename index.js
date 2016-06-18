@@ -1,0 +1,1 @@
+var Snoocore = require('snoocore');
